@@ -1,0 +1,27 @@
+.jfx-button {
+    -fx-background-color: linear-gradient(to bottom, #673ab7, #512da8);
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 25;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0.5, 0, 2);
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+    -fx-border-radius: 25;
+    -fx-transition: 0.3s ease-in-out;
+}
+
+.jfx-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #9575cd, #673ab7);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.35), 15, 0.7, 0, 3);
+    -fx-scale-x: 1.1;
+    -fx-scale-y: 1.1;
+}
+
+.jfx-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #512da8, #311b92);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 5, 0.4, 0, 1);
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}

@@ -17,6 +17,7 @@ public class App extends Application {
 
         primaryStage.setTitle("FXML JavaFX Application");
         primaryStage.setScene(scene);
+        scene.getStylesheets().add(getClass().getResource("/com/example/style.css").toExternalForm());
         primaryStage.show();
     }
 

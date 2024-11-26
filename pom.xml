@@ -9,29 +9,35 @@
     <javafx.version>20</javafx.version>
   </properties>
   <repositories>
-    <!--  Maven Central  -->
+    <!-- Maven Central -->
     <repository>
       <id>central</id>
       <url>https://repo.maven.apache.org/maven2</url>
     </repository>
   </repositories>
   <dependencies>
-    <!--  JavaFX Controls  -->
+    <!-- JavaFX Controls -->
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
       <version>${javafx.version}</version>
     </dependency>
-    <!--  JavaFX FXML  -->
+    <!-- JavaFX FXML -->
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-fxml</artifactId>
       <version>${javafx.version}</version>
     </dependency>
+    <!-- JFoenix -->
+    <dependency>
+      <groupId>com.jfoenix</groupId>
+      <artifactId>jfoenix</artifactId>
+      <version>9.0.10</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
-      <!--  Maven Compiler Plugin  -->
+      <!-- Maven Compiler Plugin -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -40,7 +46,7 @@
           <release>17</release>
         </configuration>
       </plugin>
-      <!--  JavaFX Maven Plugin  -->
+      <!-- JavaFX Maven Plugin -->
       <plugin>
         <groupId>org.openjfx</groupId>
         <artifactId>javafx-maven-plugin</artifactId>
